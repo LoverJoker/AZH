@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhrb__onclick__content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joker.azh.Zhrb_Onclick_Content_Activity">
+
+
+
+
+    <View.ListenerWebView
+        android:id="@+id/Wv_Zhrb_Onclick_Content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/Zhrb_content_LL"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/zhrb_titlebar" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/Content_Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

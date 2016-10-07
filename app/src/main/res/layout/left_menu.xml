@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:gravity="center_horizontal">
+
+    <View
+        android:background="@color/colorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="248dp" />
+
+    <Button
+        android:id="@+id/bt_zhrb"
+        android:text="知乎日报"
+        android:textColor="#606060"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/bt_ghjzy"
+        android:text="干货集中营"
+        android:textColor="#606060"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/bt_hqxrb"
+        android:text="好奇心日报"
+        android:textColor="#606060"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+</LinearLayout>
